@@ -1,0 +1,40 @@
+Name: PRATHAM SITOULA
+SID: 1660488
+CCID: sitoula
+CMPUT 275, Winter 2022
+
+Assignment 1: Trivial Navigation Systems (Part II)
+--------------------------------------------------
+Included Files:
+    * edmonton-roads-2.0.1.txt
+    * server.cpp
+    * dijkstra.cpp
+    * dijkstra.h
+    * digraph.cpp
+    * digraph.h
+    * wdigraph.h
+    * README
+    * Makefile
+    * client.py
+    * 10.png
+    * 11.png
+    * 12.png
+    * 13.png
+    * 14.png
+    * 15.png
+
+Accessories: None Needed
+
+Wiring Instructions: None Needed
+
+Running Instructions: 
+   * Start the VM
+   * Open up the terminal go to assignment_part2-pratham124 directory
+   * Run the make file
+
+Notes and Assumptions: 
+    * First character of input is V or E
+    * No street name has a comma
+    * No two vertex lines have the same identifier
+    * Endpoints of an edge will be specified on prevous lines before the  line that desrcibes the edge
+    * Identifier fits in an integer(32 bits)
